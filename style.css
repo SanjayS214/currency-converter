@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFEAEC;
+}
+
+.title {
+    padding-top: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exchangeArea {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #efdddf;
+    color: #A5A2A8;
+    border: 1px solid rgb(169, 116, 116);
+}
+
+.select-container {
+    display: flex;
+}
+
+.select-container select,
+.select-container input {
+    border: none;
+    background-color: #efdddf;
+    color: #301A4B;
+}
+
+.select-container input {
+    background-color: #ffd3d4;
+    margin: 10px;
+    border-radius: 5%;
+    border: 1px solid rgb(169, 116, 116);
+    text-align: center;
+}
+
+.icon {
+    border: none;
+    background-color: #efdddf;
+    padding: 20px;
+    color: #2C5A63;
+    opacity: .7;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+.message {
+    margin-top: 10px;
+}
